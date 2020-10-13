@@ -29,7 +29,7 @@ class Student {
       major = theMajor;
     }
     public static void print() {
-      System.out.println("The students Name is" + getName());
+      System.out.println("The students Name is");
       System.out.println("The students GPA is");
       System.out.println("The students Major is"); 
       

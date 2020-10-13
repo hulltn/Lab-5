@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 class Main {
   public static void main(String[] args) {
     
@@ -23,10 +25,13 @@ class Main {
     student2.setMajor("Information Systems");
 
     Student.print();
-    System.out.println(student1.getName());
-    System.out.println(student1.getGPA());
-    System.out.println(student1.getMajor());
+    System.out.println(student2.getName());
+    System.out.println(student2.getGPA());
+    System.out.println(student2.getMajor());
     //literally every method I tried to get these to work in the student.java file failed. It kept telling me that it couldn't find the variable
+    ArrayList<Double> gpas = new ArrayList<Double>();
+    gpas.add()
+
     }
       
 }
