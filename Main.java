@@ -11,6 +11,7 @@ class Main {
     student1.setName("Arnold Spielberg");
     student1.setGPA(4.0);
     student1.setMajor("Electrical Engineering");
+    student1.getName();
   
     Student.print();
     System.out.println(student1.getName());
